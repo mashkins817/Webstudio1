@@ -2,9 +2,13 @@ body {
     font-family: "Roboto", serif;
 }
 
-.nav-post {
-    width: 1600px;
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 2px dashed red;
 }
+
 
 .first-part {
     font-family: "Raleway", sans-serif;
@@ -18,6 +22,9 @@ body {
     font-weight: 700;
     font-size: 26px;
     color: #212121;
+}
+.post {
+    text-align: center;
 }
 
 .itemone {
@@ -76,7 +83,6 @@ body {
 }
 
 .post-one {
-    width: 1600px;
     background-color: #2F303A;
 }
 
@@ -98,15 +104,10 @@ body {
     border-radius: 4px 4px 4px 4px;
     background-color: #2196F3; 
     color: #FFFFFF;
+    text-align: center;
 }
 
-.post-sect {
-    width: 1300px;
-}
 
-.posto {
-    width: 270px
-}
 
 .post-subtitle {
     font-family: "Roboto";
