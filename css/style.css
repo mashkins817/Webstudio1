@@ -9,12 +9,26 @@ body {
     outline: 2px dashed red;
 }
 
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+
+.items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: space-around;
+}
 
 .first-part {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
-    color: #2196F3;
+    color: #2196F3; 
 }
 
 .second-part {
@@ -82,7 +96,23 @@ body {
     color: #2196F3;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .post-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #2F303A;
 }
 
@@ -109,6 +139,18 @@ body {
 
 
 
+
+
+
+
+
+
+.flex_content {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
 .post-subtitle {
     font-family: "Roboto";
 font-size: 14px;
@@ -118,7 +160,6 @@ letter-spacing: 0.03em;
 text-align: left;
 text-decoration-skip-ink: none;
 color: #212121;
-
 }
 
 .post-com {
@@ -132,6 +173,21 @@ text-decoration-skip-ink: none;
 color: #757575;
 
 }
+
+
+
+
+
+
+
+
+
+.flex_content2{
+    display: flex;
+    justify-content: center;
+   align-content: space-between;
+}
+
 
 .post-titlee {
     font-family: "Roboto";
@@ -155,13 +211,26 @@ color: #212121;
 }
 
 
-.post-end {
+
+
+
+
+
+
+
+
+
+
+
+
+.flex_content3 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
     background-color: #F5F4FA;
 }
 
-.final {
-    width: 1600px;
-}
+
 
 .post-titleo {
     font-family: "Roboto";
@@ -271,6 +340,20 @@ line-height: 18.75px;
 letter-spacing: 0.03em;
 text-decoration-skip-ink: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .foot {
