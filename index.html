@@ -9,23 +9,26 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./portfolio.html">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header class="nav-post"> 
-        <div class="container">
+        <div class="container header-flex">
         <div class="logo">
-            <span class="first-part">Web</span>
+        <span class="first-part">Web</span>
         <span class="second-part">Studio</span>
         </div>
         <nav class="items">
             <a class="itemone" href="#">Студія</a>
-            <a class="itemtwo" href="#">Портфоліо</a>
+            <a class="itemtwo" href="./portfolio.html">Портфоліо</a>
             <a class="itemthree" href="#">Контакти</a>
+        </nav>
+        <address class="items">
             <a class="itemfour" href="mailto:goiteens@gmail.com">goiteens@gmail.com</a>
             <a class="itemfive" href="tel:0730445226">073 044 5226</a>
-        </nav>
+        </address>
     </div>
     </header>
 
@@ -51,18 +54,18 @@
                         позиції.</p>
                 </article>
 
-                <article class="postt">
+                <article class="posto">
                     <h6 class="post-subtitle">ПУНКТУАЛЬНІСТЬ</h6>
                     <p class="post-com">Завдання організації, особливо рамки <br> i місце навчання кадрів тягне у себе.
                     </p>
                 </article>
 
-                <article class="postth">
+                <article class="posto">
                     <h6 class="post-subtitle">ПЛАНУВАННЯ</h6>
                     <p class="post-com">Так само консультація з широким <br> активом значною мірою зумовлює.</p>
                 </article>
 
-                <article class="postf">
+                <article class="posto">
                     <h6 class="post-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h6>
                     <p class="post-com">Значимість цих проблем настільки <br> очевидна, що реалізація планових <br>
                         завдань.</p>
@@ -74,51 +77,59 @@
 
         <section class="post-secc">
             <div class="container">
-            <div class="flex_content2">
                 <article class="postt">
                     <h3 class="post-titlee">Чим ми займаємося</h3>
-                    <img class="bro" src="./img/1.png" alt="picture">
+            <div class="flex_content2">
+                <img class="bro" src="./img/1.png" alt="picture">
                     <img class="sis" src="./img/2.png" alt="picture">
                     <img class="xz" src="./img/3.png" alt="photo">
+            </div>
                 </article>
             </div>
-        </div>
         </section>
 
         <section class="post-end">
             <div class="container">
-            <div class="flex_content3">
                 <article class="final">
                     <h3 class="post-titleo">Наша команда</h3>
-                    <figure class="info">
-                        <img class="mani" src="./img/ігор.jpg" alt="igor">
-                        <figcaption class="namei">Ігор Дем'яненко</figcaption>
-                        <p class="profi">Product Designer</p>
-                    </figure>
-
-
-                    <figure class="info">
-                        <img class="woman" src="./img/ольга.jpg" alt="ольга">
-                        <figcaption class="nameo">Ольга Рєпіна</figcaption>
-                        <p class="prof">Frontend Developer</p>
-                    </figure>
-
-
-                    <figure class="info">
-                        <img class="manm" src="./img/микола.jpg" alt="микола">
-                        <figcaption>
-                            <h4 class="namem">Микола Тарасов</h4>
-                        </figcaption>
-                        <p class="profm">Marketing</p>
-                    </figure>
-
-                    <figure class="info">
-                        <img class="mane" src="./img/михайло.jpg" alt="михайло">
-                        <figcaption class="namee">Михайло Єрмаков</figcaption>
-                        <p class="profe">UI Designer</p>
-                    </figure>
+                    <div class="flex_content3">
+                        <div>
+                            <figure class="info">
+                                <img class="mani" src="./img/ігор.jpg" alt="igor">
+                                <figcaption class="namei">
+                                    <h3>Ігор Дем'яненко</h3>
+                                    <p class="profi">Product Designer</p>
+                                </figcaption>
+                            </figure>
+        
+        
+                            <figure class="info">
+                                <img class="woman" src="./img/ольга.jpg" alt="ольга">
+                                <figcaption class="nameo">
+                                    <h3>Ольга Рєпіна</h3>
+                                    <p class="prof">Frontend Developer</p>
+                                </figcaption>
+                            </figure>
+        
+        
+                            <figure class="info">
+                                <img class="manm" src="./img/микола.jpg" alt="микола">
+                                <figcaption class="namem">
+                                    <h3>Микола Тарасов</h3>
+                                    <p class="profm">Marketing</p>
+                                </figcaption>
+                            </figure>
+        
+                            <figure class="info">
+                                <img class="mane" src="./img/михайло.jpg" alt="михайло">
+                                <figcaption class="namee">
+                                    <h3>Михайло Єрмаков</h3>
+                                    <p class="profe">UI Designer</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                     </div>
                 </article>
-            </div>
         </div>
         </section>
     </main>
@@ -126,9 +137,10 @@
     <footer class="foot">
         <div class="container">
         <div class="flex_content4">
+            <div class="logo">
         <span class="first-part-footer">Web</span>
         <span class="second-part-footer">Studio</span>
-
+            </div>
         <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
         <a class="email" href="mailto:goiteens@gmail.com">goiteens@gmail.com</a>
         <a class="tel" href="tel:0730445226">073 044 5226</a>
