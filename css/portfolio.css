@@ -15,6 +15,20 @@ body {
     justify-content: space-between;
 }
 
+header.nav-post{
+    padding: 25px 0;
+}
+
+nav.items{
+    gap: 50px;
+    display: flex;
+}
+
+address.items{
+    gap: 50px;
+    display: flex;
+}
+
 .first-part {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -37,6 +51,10 @@ body {
     color: #212121;
     text-decoration: none;
     font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 2%;
+
 }
 
 .itemone:hover{
@@ -48,6 +66,9 @@ body {
     color: #212121;
     text-decoration: none;
     font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 2%;
 }
 
 .itemtwo:hover{
@@ -58,7 +79,11 @@ body {
     font-family: "Roboto", serif;
     color: #212121;
     text-decoration: none;
-    font-size: 14px;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 2%;
+
 }
 
 .itemthree:hover{
@@ -67,9 +92,12 @@ body {
 
 .itemfour {
     font-family: "Roboto", serif;
-    color: #212121;
+    color: #757575;
     text-decoration: none;
     font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 2%;
 }
 
 .itemfour:hover{
@@ -81,6 +109,9 @@ body {
     color: #757575;
     text-decoration: none;
     font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 2%;
 }
 
 .itemfive:hover{
@@ -95,7 +126,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    
+    margin: 50px 0;
 }
 
 .first-btn{
@@ -183,115 +214,50 @@ body {
 
 
 .post-end{
-    background-color: #F5F4FA;
-    padding: 100px 0;
+    margin: 50px 0;
 }
 
 .flex_content3 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .info {
-    width: 270px;
+    width: 370px;
     margin: 0;
-    background-color: white;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 
-.mani {
-    width: 270px;
+.projects {
+    width: 100%;
 }
 
-.namei {
-    font-family: "Roboto";
-font-size: 16px;
-font-weight: 500;
-line-height: 18.75px;
-letter-spacing: 0.03em;
-text-decoration-skip-ink: none;
-color: #212121;
-}
-
-.profi {
-    font-family: "Roboto";
-font-size: 16px;
-font-weight: 400;
-line-height: 18.75px;
-letter-spacing: 0.03em;
-text-decoration-skip-ink: none;
-color: #757575;
-}
-
-.woman {
-    width: 270px;
-}
-
-.nameo {
-    font-family: "Roboto";
-font-size: 16px;
-font-weight: 500;
-line-height: 18.75px;
-letter-spacing: 0.03em;
-text-decoration-skip-ink: none;
-color: #212121;
+.details {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 6%;
+    color: #212121;
+    padding-left: 20px;
 }
 
 .prof {
-    font-family: "Roboto";
-font-size: 16px;
-font-weight: 400;
-line-height: 18.75px;
-letter-spacing: 0.03em;
-text-decoration-skip-ink: none;
-color: #757575;
-}
-
-.manm {
-    width: 270px;
-}
-
-.namem {
-    font-family: "Roboto";
-font-size: 16px;
-font-weight: 500;
-line-height: 18.75px;
-letter-spacing: 0.03em;
-text-decoration-skip-ink: none;
-color: #212121;
-}
-
-.profm {
-    font-family: "Roboto";
-font-size: 16px;
-font-weight: 400;
-line-height: 18.75px;
-letter-spacing: 0.03em;
-text-decoration-skip-ink: none;
-color: #757575;
-}
-
-.mane {
-    width: 270px;
-}
-
-.namee {
-    font-family: "Roboto";
-font-size: 16px;
-font-weight: 500;
-line-height: 18.75px;
-letter-spacing: 0.03em;
-text-decoration-skip-ink: none;
-color: #212121;
-}
-
-.profe {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 3%;
+    text-decoration-skip-ink: none;
     color: #757575;
-font-size: 16px;
-font-weight: 400;
-line-height: 18.75px;
-letter-spacing: 0.03em;
-text-decoration-skip-ink: none;
 }
+
+
+
+
 
 
 
@@ -299,11 +265,15 @@ text-decoration-skip-ink: none;
 
 .foot {
     background-color: #2F303A;
+    padding: 60px 0;
     }
     
     .flex_content4{
         display: flex;
         flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 10px;
     }
     
     .first-part-footer {
